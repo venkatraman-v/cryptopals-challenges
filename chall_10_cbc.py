@@ -1,4 +1,5 @@
-from set_01_utils import base64_to_bytes, ecb_encrypt, ecb_decrypt, xor, base64file_to_bytes, cbc_decrypt
+from set_01_utils import base64_to_bytes, ecb_encrypt, ecb_decrypt, xor
+from set_02_utils import base64file_to_bytes, cbc_decrypt
 # CBC is a mode
 # each ciphtertext block is added to the next palintext block??
 

@@ -62,6 +62,3 @@ def test_base64_to_bytes():
     assert b"any carnal pleasure." == base64_to_bytes("YW55IGNhcm5hbCBwbGVhc3VyZS4="), "Failed for 'any carnal pleasure.'"
     print("base64_to_bytes works!")
 
-def test_pkcs_pad():
-    assert pkcs_pad(b"YELLOW SUBMARINE", 20) == b"YELLOW SUBMARINE\x04\x04\x04\x04"
-    print("pkcs_pad test passed")
